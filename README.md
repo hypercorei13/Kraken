@@ -1,6 +1,7 @@
 # Kraken Trading Assistant
 
 NOTE: To use this software you will need your own Kraken API Keys installed in the KrakenMonitor Class > main.pyw
+
  self.api_key = "abcdefghijklmnopqrstuvwxyz0123456789"
  self.api_secret = "abcdefghijklmnopqrstuvwxyz0123456789"
 
