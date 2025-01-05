@@ -1,5 +1,6 @@
 # Kraken Trading Assistant
 ![Screenshot 2025-01-04 172245](https://github.com/user-attachments/assets/06e0d0ef-0189-4ed3-a0d3-3b7e94775cf3)
+
 NOTE: To use this software you will need your own Kraken API Keys installed in the file assets/main.keys.
 api_key = "abcdefghijklmnopqrstuvwxyz0123456789"
 api_secret = "abcdefghijklmnopqrstuvwxyz0123456789"
