@@ -1,9 +1,10 @@
 # Kraken Trading Assistant
 
-NOTE: To use this software you will need your own Kraken API Keys installed in the KrakenMonitor Class > main.pyw
+NOTE: To use this software you will need your own Kraken API Keys installed in the file assets/main.keys.
+api_key = "abcdefghijklmnopqrstuvwxyz0123456789"
+api_secret = "abcdefghijklmnopqrstuvwxyz0123456789"
 
- self.api_key = "abcdefghijklmnopqrstuvwxyz0123456789"
- self.api_secret = "abcdefghijklmnopqrstuvwxyz0123456789"
+You will also need a FREE subsccription to PySimpleGUI. No files are installed in your machine. This is the safest Python GUI method that I am aware of: https://www.pysimplegui.com/
 
 This README provides a comprehensive overview of the project, its implementation, and technical details. 
 You may want to add: Versatility for connecting to other exchanges and/or data sources. 
