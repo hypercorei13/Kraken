@@ -1,5 +1,5 @@
 # Kraken Trading Assistant
-![Screenshot 2025-01-04 172245](https://github.com/user-attachments/assets/06e0d0ef-0189-4ed3-a0d3-3b7e94775cf3)
+![Screenshot 2025-01-04 172305](https://github.com/user-attachments/assets/a8490603-30bd-47ab-95bd-c6d451a064e6)
 
 NOTE: To use this software you will need your own Kraken API Keys installed in the file assets/main.keys.
 api_key = "abcdefghijklmnopqrstuvwxyz0123456789"
@@ -155,5 +155,5 @@ Developed by Claude 3.5 Sonnet (Anthropic) using the Cursor IDE platform.
 ## License
 
 MIT License
+![Screenshot 2025-01-04 172245](https://github.com/user-attachments/assets/06e0d0ef-0189-4ed3-a0d3-3b7e94775cf3)
 
-![Screenshot 2025-01-04 172305](https://github.com/user-attachments/assets/a8490603-30bd-47ab-95bd-c6d451a064e6)
