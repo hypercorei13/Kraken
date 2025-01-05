@@ -108,12 +108,56 @@ pythonw main.pyw
 - Training epochs: 50
 - Batch size: 32
 
+Price Range-Specific Models
+The system uses different LSTM model configurations based on asset price ranges:
+-Micro Range (< $0.01)
+  Smaller network (64 hidden units, 2 layers)
+  Higher learning rate (0.001)
+  Less dropout (0.2)
+-Low Range ($0.01 - $1.00)
+  Medium-small network (96 hidden units, 2 layers)
+  Standard learning rate (0.001)
+  Moderate dropout (0.3)
+-Medium Range ($1.00 - $100)
+  Medium network (128 hidden units, 3 layers)
+  Standard learning rate (0.001)
+-Moderate dropout (0.3)
+  High Range ($100 - $1000)
+  Large network (160 hidden units, 3 layers)
+  Lower learning rate (0.0005)
+  Higher dropout (0.4)
+-Mega Range (> $1000)
+  Largest network (192 hidden units, 4 layers)
+  Lower learning rate (0.0005)
+  Higher dropout (0.4)
+Each model is optimized for its price range's characteristics, with larger and more complex models for higher-priced assets where precision is more critical.
+
 ### Data Processing
 - 1-minute candle data
 - 24-hour historical data
 - MinMax scaling
 - Real-time updates
 - Automatic retraining
+
+- Technical Indicators
+  The system calculates several technical indicators for each asset:
+  MACD (Moving Average Convergence Divergence)
+  Uses 12/26 day EMAs and 9-day signal line
+  Includes MACD histogram for momentum analysis
+  RSI (Relative Strength Index)
+  14-period RSI for overbought/oversold conditions
+  Helps identify potential trend reversals
+  Bollinger Bands
+  20-period moving average with 2 standard deviation bands
+  Includes BB width for volatility measurement
+  Moving Averages
+  SMA-5 (short term trends)
+  SMA-20 (medium term trends)
+  SMA-50 (long term trends)
+  Price Action Indicators
+  Rate of Change (ROC) - 12-period momentum
+  Average True Range (ATR) - 14-period volatility
+  Momentum - 14-period price change
 
 ### Model Management
 - Automatic saving/loading
@@ -141,8 +185,7 @@ The application is optimized for:
 
 ## Future Improvements
 
-Potential areas for enhancement:
-- Additional neural network architectures
+Potential areas for enhancements
 - Trading automation
 - Enhanced visualization
 - Portfolio optimization
